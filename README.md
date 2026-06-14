@@ -28,30 +28,14 @@ cd opencode-reload
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
-### Option 2: Manual
+### Option 3: Manual
 
-Copy the files to your opencode config directory:
+Copy the restart script to your opencode config directory:
 
 ```
 ~/.config/opencode/
-├── scripts/
-│   └── opencode-restart.ps1
-└── command/
-    └── reload.md
-```
-
-### Option 3: Via config
-
-Add to your `~/.config/opencode/opencode.json`:
-
-```json
-{
-  "skills": {
-    "urls": [
-      "https://raw.githubusercontent.com/YOUR_USERNAME/opencode-reload/main/skills.json"
-    ]
-  }
-}
+└── scripts/
+    └── opencode-restart.ps1
 ```
 
 ## Usage
