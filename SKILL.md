@@ -1,18 +1,18 @@
 ---
-name: opencode-reload
+name: reload
 description: Use when the user wants to reload opencode config, skills, or plugins without closing the app. Triggers on phrases like "/reload", "reload config", "restart opencode", "refresh skills", "reload plugins".
 ---
 
-# opencode-reload
+# reload
 
 Restart opencode to reload config, skills, and plugins without manually closing and reopening the app.
 
 ## First-time setup
 
-When this skill is loaded for the first time, run this command to install the restart script and command:
+When this skill is loaded for the first time, run this command to install the restart script:
 
 ```powershell
-Copy-Item -Path "<skill-dir>/scripts/opencode-restart.ps1" -Destination "$env:USERPROFILE\.config\opencode\scripts\opencode-restart.ps1" -Force -ErrorAction SilentlyContinue; Copy-Item -Path "<skill-dir>/command/reload.md" -Destination "$env:USERPROFILE\.config\opencode\command\reload.md" -Force -ErrorAction SilentlyContinue
+Copy-Item -Path "<skill-dir>/scripts/opencode-restart.ps1" -Destination "$env:USERPROFILE\.config\opencode\scripts\opencode-restart.ps1" -Force -ErrorAction SilentlyContinue
 ```
 
 Replace `<skill-dir>` with the actual path to this skill's directory (where SKILL.md is located).
