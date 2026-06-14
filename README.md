@@ -11,36 +11,15 @@ Type `/reload` in the opencode chat and the app instantly restarts, reloading al
 - Supports both **Desktop app** (Electron) and **CLI**
 - Starts the new instance first, then kills the old one — zero downtime
 - No output, no delay, no extra text
+- Works immediately after install — no setup required
 
 ## Install
-
-### Option 1: skills.sh (recommended)
 
 ```bash
 npx skills add amworx/opencode-reload
 ```
 
-### Option 2: Install script
-
-```powershell
-git clone https://github.com/amworx/opencode-reload.git
-cd opencode-reload
-powershell -ExecutionPolicy Bypass -File install.ps1
-```
-
-### Option 3: Manual
-
-Copy the restart script to your opencode config directory:
-
-```
-~/.config/opencode/
-└── scripts/
-    └── opencode-restart.ps1
-```
-
-## Usage
-
-Type `/reload` in the opencode chat. The app restarts instantly.
+That's it. Type `/reload` in opencode to restart.
 
 ## How it works
 
