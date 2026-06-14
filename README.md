@@ -1,5 +1,7 @@
 # opencode-reload
 
+[![skills.sh](https://skills.sh/b/amworx/opencode-reload)](https://skills.sh/amworx/opencode-reload)
+
 A skill for [opencode](https://opencode.ai) that adds a `/reload` command to restart the app without closing and reopening it.
 
 ## What it does
@@ -12,7 +14,13 @@ Type `/reload` in the opencode chat and the app instantly restarts, reloading al
 
 ## Install
 
-### Option 1: Install script
+### Option 1: skills.sh (recommended)
+
+```bash
+npx skills add amworx/opencode-reload
+```
+
+### Option 2: Install script
 
 ```powershell
 git clone https://github.com/amworx/opencode-reload.git
