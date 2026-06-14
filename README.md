@@ -15,7 +15,7 @@ Type `/reload` in the opencode chat and the app instantly restarts, reloading al
 ### Option 1: Install script
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/opencode-reload.git
+git clone https://github.com/amworx/opencode-reload.git
 cd opencode-reload
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
